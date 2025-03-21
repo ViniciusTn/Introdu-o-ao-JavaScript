@@ -67,9 +67,9 @@ let palavra = prompt("escreva uma palavra");
 
 function inverterTexto (palavra){
     
-let letras = palavra.split(" ");
+let letras = palavra.split("");
 let contrario = letras.reverse();
-let junto = contrario.join(" ");
+let junto = contrario.join("");
 console.log(junto);
 
 }
@@ -77,3 +77,40 @@ console.log(junto);
 
 
 inverterTexto(palavra);
+
+
+//. Contagem de Caracteres em uma String:
+//Crie uma função chamada contarCaracteres que receba uma string e retorne o número de caracteres dessa string.
+
+
+let j = prompt("insira uma palavra para contagem");
+
+function contarCaracteres(j){
+    total = j.length 
+}
+
+
+
+
+
+
+
+//Acessando Propriedades de Objetos:
+//Crie um objeto carro com as propriedades marca, modelo e ano. Imprima no console o valor da propriedade modelo.
+
+let carro = {
+
+    marca:"ferrari"
+    modelo:"488 GTB"
+    ano: 2015,
+
+    carrao: function(){
+        
+        console.log("marca: " + this.marca);
+        console.log("modelo: " + this.modelo);
+        console.log("ano: " + this.ano);
+    }
+
+};
+
+carro.carrao();
