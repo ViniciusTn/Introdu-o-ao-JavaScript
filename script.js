@@ -57,6 +57,23 @@ while(n >= 1){
 }
 
 
+//. Manipulação de Strings:
+//Crie uma função chamada inverterTexto que receba uma string como parâmetro e retorne essa string invertida. 
+//Exemplo: "JavaScript" deve se tornar "tpircSavaJ".
 
 
 
+let palavra = prompt("escreva uma palavra");
+
+function inverterTexto (palavra){
+    
+let letras = palavra.split(" ");
+let contrario = letras.reverse();
+let junto = contrario.join(" ");
+console.log(junto);
+
+}
+
+
+
+inverterTexto(palavra);
